@@ -1,0 +1,32 @@
+body{
+background-color: rgb(19, 195, 240);    
+
+}
+h1{
+    background-color: rgb(20, 218, 253);
+    color:rgb(243, 11, 11);
+}
+button{
+ float: right;
+}
+p{
+font-size:x-large;
+font-weight:bold;
+text-shadow:2px 2px rgb(156, 8, 241);
+}
+
+canvas{
+ border: 5px solid rgb(255, 4, 4);
+ border-radius: 50px; 
+ animation-name:Joe;
+ animation-duration:4s ;
+ animation-iteration-count:infinite ;   
+}
+@keyframes Joe{
+ from{
+  box-shadow:5px 5px 67px rgb(4, 9, 75) ;   
+ }
+ to{
+    box-shadow:5px 5px 67px rgb(16, 4, 82) ;   
+   }   
+}
